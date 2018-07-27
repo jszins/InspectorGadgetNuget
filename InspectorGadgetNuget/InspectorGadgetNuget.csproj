@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <PackOnBuild>true</PackOnBuild>
+    <PackageId>InspectorGadgetNuget_jzins</PackageId>
+    <PackageVersion>0.1</PackageVersion>
+    <Authors>jzins</Authors>
+    <Description>Tool to check for addition/removal of public properties in classes/interfaces</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="NuGet.Build.Packaging" Version="0.2.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="InspectorGadget\obj\Debug\netcoreapp2.0\InspectorGadget.AssemblyInfo.cs" />
+    <Compile Remove="Class1.cs" />
+    <Compile Remove="Program.cs" />
+    <Compile Remove="Program.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="InspectorGadget\obj\InspectorGadget.csproj.nuget.cache" />
+    <None Remove="InspectorGadget\obj\InspectorGadget.csproj.nuget.g.props" />
+    <None Remove="InspectorGadget\obj\InspectorGadget.csproj.nuget.g.targets" />
+    <None Remove="InspectorGadget\obj\project.assets.json" />
+    <None Remove="InspectorGadget\obj\Debug\netcoreapp2.0\InspectorGadget.AssemblyInfoInputs.cache" />
+    <None Remove="InspectorGadget\obj\Debug\netcoreapp2.0\InspectorGadget.csproj.CoreCompileInputs.cache" />
+    <None Remove="InspectorGadget\obj\Debug\netcoreapp2.0\InspectorGadget.csproj.FileListAbsolute.txt" />
+    <None Remove="InspectorGadget\obj\Debug\netcoreapp2.0\InspectorGadget.csprojResolveAssemblyReference.cache" />
+    <None Remove="InspectorGadget\obj\Debug\netcoreapp2.0\InspectorGadget.dll" />
+    <None Remove="InspectorGadget\obj\Debug\netcoreapp2.0\InspectorGadget.pdb" />
+    <None Remove="InspectorGadget\bin\Debug\netcoreapp2.0\InspectorGadget.deps.json" />
+    <None Remove="InspectorGadget\bin\Debug\netcoreapp2.0\InspectorGadget.dll" />
+    <None Remove="InspectorGadget\bin\Debug\netcoreapp2.0\InspectorGadget.runtimeconfig.dev.json" />
+    <None Remove="InspectorGadget\bin\Debug\netcoreapp2.0\InspectorGadget.runtimeconfig.json" />
+    <None Remove="InspectorGadget\.gitattributes" />
+    <None Remove="InspectorGadget\.gitignore" />
+    <None Remove="InspectorGadget\.DS_Store" />
+    <None Remove="InspectorGadget\bin\Debug\netcoreapp2.0\InspectorGadget.pdb" />
+    <None Remove="InspectorGadget.json" />
+  </ItemGroup>
+</Project>

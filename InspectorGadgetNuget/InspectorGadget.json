@@ -1,0 +1,134 @@
+{
+  "PreviousPublicClasses": {
+    "PublicInterfaces": {},
+    "PublicClasses": {
+      "InspectorGadget.Inspect": {
+        "PublicProperties": {},
+        "PublicMethods": {
+          "Int32 InspectAll(Type type)": "InspectorGadget.Inspect"
+        },
+        "test": 0
+      },
+      "InspectorGadget.InspectingTools": {
+        "PublicProperties": {},
+        "PublicMethods": {
+          "Dictionary`2 GetPublicClasses(Type type)": "InspectorGadget.InspectingTools",
+          "Dictionary`2 GetPublicInterfaces(Type type)": "InspectorGadget.InspectingTools",
+          "Void DetectChangedInterfaceMethodsAndProperties(TypesToTrack workingType,StringBuilder added,StringBuilder removed)": "InspectorGadget.InspectingTools",
+          "Void DetectChangedClassPropertiesAndMethods(TypesToTrack workingType,StringBuilder added,StringBuilder removed)": "InspectorGadget.InspectingTools",
+          "Void WriteToJsonFile(String filePath,T objectToWrite,Boolean append)": "InspectorGadget.InspectingTools",
+          "TypesToTrack ReadFromJsonFile(String filePath)": "InspectorGadget.InspectingTools"
+        },
+        "test": 0
+      },
+      "InspectorGadget.MethodInfoExtension": {
+        "PublicProperties": {},
+        "PublicMethods": {
+          "String MethodSignature(MethodInfo mi)": "InspectorGadget.MethodInfoExtension"
+        },
+        "test": 0
+      },
+      "InspectorGadget.PublicClass": {
+        "PublicProperties": {},
+        "PublicMethods": {},
+        "test": 0
+      },
+      "InspectorGadget.PublicInterface": {
+        "PublicProperties": {},
+        "PublicMethods": {},
+        "test": 0
+      },
+      "InspectorGadget.PublicSurfaceArea": {
+        "PublicProperties": {
+          "PublicInterfaces": "InspectorGadget.PublicSurfaceArea",
+          "PublicClasses": "InspectorGadget.PublicSurfaceArea"
+        },
+        "PublicMethods": {},
+        "test": 0
+      },
+      "InspectorGadget.TypeBase": {
+        "PublicProperties": {
+          "PublicProperties": "InspectorGadget.TypeBase",
+          "PublicMethods": "InspectorGadget.TypeBase",
+          "test": "InspectorGadget.TypeBase"
+        },
+        "PublicMethods": {},
+        "test": 0
+      },
+      "InspectorGadget.TypesToTrack": {
+        "PublicProperties": {
+          "PreviousPublicClasses": "InspectorGadget.TypesToTrack",
+          "CurrentPublicClasses": "InspectorGadget.TypesToTrack"
+        },
+        "PublicMethods": {},
+        "test": 0
+      }
+    }
+  },
+  "CurrentPublicClasses": {
+    "PublicInterfaces": {},
+    "PublicClasses": {
+      "InspectorGadget.Inspect": {
+        "PublicProperties": {},
+        "PublicMethods": {
+          "Int32 InspectAll(Type type)": "InspectorGadget.Inspect"
+        },
+        "test": 0
+      },
+      "InspectorGadget.InspectingTools": {
+        "PublicProperties": {},
+        "PublicMethods": {
+          "Dictionary`2 GetPublicClasses(Type type)": "InspectorGadget.InspectingTools",
+          "Dictionary`2 GetPublicInterfaces(Type type)": "InspectorGadget.InspectingTools",
+          "Void DetectChangedInterfaceMethodsAndProperties(TypesToTrack workingType,StringBuilder added,StringBuilder removed)": "InspectorGadget.InspectingTools",
+          "Void DetectChangedClassPropertiesAndMethods(TypesToTrack workingType,StringBuilder added,StringBuilder removed)": "InspectorGadget.InspectingTools",
+          "Void WriteToJsonFile(String filePath,T objectToWrite,Boolean append)": "InspectorGadget.InspectingTools",
+          "TypesToTrack ReadFromJsonFile(String filePath)": "InspectorGadget.InspectingTools"
+        },
+        "test": 0
+      },
+      "InspectorGadget.MethodInfoExtension": {
+        "PublicProperties": {},
+        "PublicMethods": {
+          "String MethodSignature(MethodInfo mi)": "InspectorGadget.MethodInfoExtension"
+        },
+        "test": 0
+      },
+      "InspectorGadget.PublicClass": {
+        "PublicProperties": {},
+        "PublicMethods": {},
+        "test": 0
+      },
+      "InspectorGadget.PublicInterface": {
+        "PublicProperties": {},
+        "PublicMethods": {},
+        "test": 0
+      },
+      "InspectorGadget.PublicSurfaceArea": {
+        "PublicProperties": {
+          "PublicInterfaces": "InspectorGadget.PublicSurfaceArea",
+          "PublicClasses": "InspectorGadget.PublicSurfaceArea"
+        },
+        "PublicMethods": {},
+        "test": 0
+      },
+      "InspectorGadget.TypeBase": {
+        "PublicProperties": {
+          "PublicProperties": "InspectorGadget.TypeBase",
+          "PublicMethods": "InspectorGadget.TypeBase",
+          "test": "InspectorGadget.TypeBase"
+        },
+        "PublicMethods": {},
+        "test": 0
+      },
+      "InspectorGadget.TypesToTrack": {
+        "PublicProperties": {
+          "PreviousPublicClasses": "InspectorGadget.TypesToTrack",
+          "CurrentPublicClasses": "InspectorGadget.TypesToTrack"
+        },
+        "PublicMethods": {},
+        "test": 0
+      }
+    }
+  }
+}
