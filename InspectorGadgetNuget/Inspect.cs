@@ -9,7 +9,7 @@ namespace InspectorGadget
 
         const string BasePath = @"../InspectorGadget.json";
               
-        public static int InspectAll(Type type)
+        public static void InspectAll(Type type)
         {
             var added = new StringBuilder();
             var removed = new StringBuilder();
@@ -25,7 +25,6 @@ namespace InspectorGadget
             if (!File.Exists(BasePath))
             {
                 InspectingTools.WriteToJsonFile(BasePath, typesToTrack);
-                return 0;
             }
 
             var oldFile = InspectingTools.ReadFromJsonFile(BasePath);
@@ -42,13 +41,10 @@ namespace InspectorGadget
             if (!string.IsNullOrWhiteSpace(removed.ToString()))
             {
                 Console.WriteLine(removed);
-                Console.WriteLine("Changes not made");
-                return 1;
             }
                 
             
             InspectingTools.WriteToJsonFile(BasePath, typesToTrack);
-            return 0;
         }     
     }
 }
